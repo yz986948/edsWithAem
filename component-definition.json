@@ -168,7 +168,6 @@
                   "name": "Quote",
                   "model": "quote",
                   "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Biff Tannen"
                 }
               }
             }
