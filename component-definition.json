@@ -158,17 +158,27 @@
           }
         },
         {
-          "title": "Quote",
-          "id": "quote",
+          "title": "Carousel",
+          "id": "carousel",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
+                "filter": "carouselItem"
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Item",
+          "id": "carouselItem",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
-                  "name": "Quote",
-                  "model": "quote",
-                  "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Yunzhu"
+                  "name": "Carousel Item",
+                  "model": "carouselItem"
                 }
               }
             }
